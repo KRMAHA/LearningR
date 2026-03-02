@@ -7,7 +7,7 @@ TODO: Add more to the title of your project here
 
 TODO: Give a brief description of what your project is about
 
-This project...
+This project...is about preventing type 2-diabetes 
 
 # Brief description of folder and file contents
 

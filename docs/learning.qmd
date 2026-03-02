@@ -19,6 +19,8 @@ I am doin a PhD about **preventing** type 2-diabetes among 30-50 years old aduli
 
 
 ```{r setup} 
+#| message: false
+#| warning: false
 library(tidyverse)
 post_meal_data <- read_csv2(here::here("data/post-meal-insulin.csv"))
 ```

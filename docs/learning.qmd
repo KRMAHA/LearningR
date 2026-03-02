@@ -1,0 +1,32 @@
+---
+title: "Reproducible documents"
+author: "Kristina Hansen"
+format: html
+---
+
+## About me 
+- Name: Kristina 
+- Age: 27
+- Affiliation: PhD student 
+
+I am doin a PhD about **preventing** type 2-diabetes among 30-50 years old adulit in *DK* an the *Faroe Islands*
+
+## Simple code 
+```{r simplecode}
+3*3
+```
+
+
+
+```{r setup} 
+library(tidyverse)
+
+```
+
+
+```{r test}
+2 + 2
+```
+
+
+### Nået til "16  Version control with Git"

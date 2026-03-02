@@ -20,9 +20,8 @@ I am doin a PhD about **preventing** type 2-diabetes among 30-50 years old aduli
 
 ```{r setup} 
 library(tidyverse)
-
+post_meal_data <- read_csv2(here::here("data/post-meal-insulin.csv"))
 ```
-
 
 ```{r test}
 2 + 2
@@ -30,4 +29,11 @@ library(tidyverse)
 
 
 ## Testing for Git
-This section vil be working of the Git-part go the workshop 
+This section will be working of the Git-part of the workshop 
+
+## Showing the data
+```{r}
+post_meal_data
+glimpse(post_meal_data)
+```
+

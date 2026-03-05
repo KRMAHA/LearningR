@@ -13,7 +13,7 @@ I am doin a PhD about **preventing** type 2-diabetes among 30-50 years old aduli
 
 ## Simple code 
 ```{r simplecode}
-3*3
+3 * 3
 ```
 
 
@@ -101,4 +101,11 @@ ggplot(post_meal_data, aes(x = glykemi)) +
 Fordi de to koder kommer i samme chunk placeres de ved sinden i hinanden ved "render"
 
 
-
+## Plotting two continuous variables (+ geom_smooth for linjen)
+```{r}
+#| fig-cap: "Scatterplot of BMI and the area under the curve for glucose."
+#| label: fig-bmi-auc-pg
+ggplot(post_meal_data, aes(x = BMI, y = auc_pg)) +
+  geom_point() +
+  geom_smooth()
+```
